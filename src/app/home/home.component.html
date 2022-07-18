@@ -1,0 +1,23 @@
+<div>
+  <h1>ICTAK</h1>
+  <!-- one way binding {{title}} -->
+  <h2>{{ title }}</h2>
+  <h3>Welcome {{ name }}</h3>
+  <!-- two-way binding with [()] syntax (also known as 'banana-in-a-box syntax') -->
+  <input type="text" [(ngModel)]="name" />
+  <br />
+  <br />
+  <span *ngIf="isavailable"><h3>Product is available</h3></span>
+  <br />
+  <select>
+    <option *ngFor="let i of month">{{ i }}</option>
+  </select>
+  <br />
+  <br />
+  <button (click)="buttonclicked()">Click Me</button>
+  <br />
+  <br />
+  <input type="text" (keyup)="keyUpDemo($event)" />
+  <br />
+  <label>{{ value }}</label>
+</div>

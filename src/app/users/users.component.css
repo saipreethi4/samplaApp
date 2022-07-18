@@ -1,0 +1,28 @@
+div {
+  width: 100%;
+  background-color: rgb(49, 143, 135);
+  height: 500px;
+  /* text-align: center; */
+  position: relative;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: #96d4d4;
+}
+table {
+  width: 80%;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+}
